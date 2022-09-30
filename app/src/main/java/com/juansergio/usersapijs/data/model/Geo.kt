@@ -1,1 +1,1 @@
-package com.juansergio.usersapijs.data.modeldata class Geo(    val lat: String,    val lng: String)
+package com.juansergio.usersapijs.data.modeldata class Geo(    val lat: String,    val lng: String)
