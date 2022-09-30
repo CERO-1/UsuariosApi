@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity(), ClickListener {
         viewmodel.progressState.observe(this) { show ->
             binding.contenedor.progress.isVisible = show
         }
-
         mAdapter = UsersAdapter(this)
         binding.contenedor.recyclerusers.layoutManager = LinearLayoutManager(this)
         binding.contenedor.recyclerusers.adapter = mAdapter
