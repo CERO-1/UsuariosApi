@@ -1,0 +1,1 @@
+package com.juansergio.usersapijs.dataimport com.juansergio.usersapijs.data.model.UsuariosItemclass UsuariosResponse : ArrayList<UsuariosItem>()

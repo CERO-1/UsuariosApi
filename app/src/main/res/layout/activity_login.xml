@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azul">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:background="@drawable/rounded_rect"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            >
+
+
+
+            <TextView
+                android:textAllCaps="true"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/ivSignIn"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/iniciar_sesion"
+                />
+            <ImageView
+                android:id="@+id/ivLogLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/nino128"
+                android:layout_marginBottom="55dp"
+                android:layout_marginTop="18dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/todo" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atvEmailLog"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="@string/emailReg"
+                android:inputType="textEmailAddress"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15sp" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btnsignin_gradient"
+                android:text="@string/sign_inLog"
+                android:textColor="#FFFFFF" />
+
+
+            <ImageView
+                android:id="@+id/ivFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/social_site_button"
+                android:src="@drawable/btnfacebook"
+                tools:ignore="RedundantDescriptionCheck" />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

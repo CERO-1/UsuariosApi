@@ -1,0 +1,1 @@
+package com.juansergio.usersapijs.domain.usescaseimport com.juansergio.usersapijs.data.UsuariosResponseimport com.juansergio.usersapijs.data.reposytory.RepositoryUsersclass GetUsersCase {    private  val usersrepository= RepositoryUsers()    suspend  fun getData (): UsuariosResponse {        return usersrepository.getUsers()    }}
